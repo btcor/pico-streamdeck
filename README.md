@@ -42,7 +42,7 @@ The next step was to add the LED Sequins to the back of the key switches. These 
 I chose to give each row of buttons slightly different behavior and different colored LEDs. 
 
 * The top row has red LEDs and they work like a toggle (pressing once turns on the LED, pressing a second time turns it off). This was meant to be assigned to mute or defean function such as muting Discord.
-* The middle row has green LEDs and work like a switcher (pressing one of them turns on the LED, pressing a second button turns off the first one and turns on the new one). This was meant to work as a scene switcher.
+* The middle row has green LEDs and works like a switcher (pressing one of them turns on the LED, pressing a second button turns off the first one and turns on the new one). This was meant to work as a scene switcher.
 * The bottom row has blue LEDs and only activates when pressed. This is meant to be assigned to functions such as sound alerts.
 
 ## Wiring
