@@ -23,6 +23,14 @@ I also 3D printed both the enclosure and the keycaps using slightly modified ver
   
 ## Putting it together
 
-The first step is print the enclosure and insert the key switches into the faceplate.
+The first step is to print the enclosure and insert the key switches into the faceplate.
 
-![switches_in_faceplate.jpg](switches_in_faceplate.jpg)
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/8460968/130339762-80292c91-238a-4796-b4bf-695441c631cc.jpg" width="500">
+</p>
+
+The next step is to add the LED Sequins to the back of the key switches. These LEDs were actually originally intended by Adafruit to be used in wearable projects, such as cosplay, and can be sewn into fabric using conductive thread. However, I discovered that these small and easy to use LEDs fit perfectly into the little gap at the bottom the key switches. All you have to do is fit them into the gap at the bottom of the switch, add one drop of super glue to hold it in place, and the light will shine through the key.
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/8460968/130339975-d0aeb7cd-cf6b-4402-9a73-0daecb702f3f.jpg" width="300">
+</p>
