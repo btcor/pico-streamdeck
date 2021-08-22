@@ -25,3 +25,4 @@ I also 3D printed both the enclosure and the keycaps using slightly modified ver
 
 The first step is print the enclosure and insert the key switches into the faceplate.
 
+![switches_in_faceplate.jpg](switches_in_faceplate.jpg)
