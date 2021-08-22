@@ -85,7 +85,7 @@ The code that actually makes the Stream Deck work is in the `code.py` file. In o
 
 The code in `code.py` assigns the buttons to key combos using the hidden F13, F14, F15, and F16 keys. Most applications (including Discord and OBS) will recognize these keys, and they will allow you to use these key combos as hotkeys.
 
-Below are screenshots showing the Stream Deck buttons being assigned as hotkeys in Discord and Streamlabs OBS
+Below are screenshots showing the Stream Deck buttons being assigned as hotkeys in Discord and Streamlabs OBS.
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/8460968/130346730-4bfb7258-7744-477e-9daa-48b7114d3f62.png" width="500">
