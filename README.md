@@ -59,7 +59,7 @@ The first wiring I did was connect all of the top left pins of the switches. Thi
   <img src="https://user-images.githubusercontent.com/8460968/130340844-a3900eae-238d-48b6-ae95-fc7cc24a57d9.jpg" width="500">
 </p>
 
-Next I soldered a wire to the right pins of each of the switches. These wires will be connected to GPIO pins on the Pico (pins 4-7, 9-12, and 14-17). Then I soldered a wire to the right (+) side of each of the LEDs. These will also be connected to GPIO pins on the Pico (pins 19-22, 24-27, 29, 31-32, and 34).
+Next I soldered a wire to the right pins of each of the switches. These wires will be connected to GPIO pins on the Pico (pins 4-7, 9-12, and 14-17). Then I soldered a wire to the right (+) side of each of the LEDs. These will also be connected to GPIO pins on the Pico (pins 19-22, 24-27, 29, 31, 32, and 34).
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/8460968/130341207-96b11b41-25a3-4c08-99c7-718869baa5db.jpg" width="500">
