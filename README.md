@@ -80,3 +80,16 @@ The last step was to add the 3D printed keycaps. The keycap design that I chose 
 For this project, I installed CircuitPython on the Raspberry Pi Pico. Adafruit already has a guide for installing CircuitPython at https://learn.adafruit.com/getting-started-with-raspberry-pi-pico-circuitpython/circuitpython. At the time of writing, the most current stable release is version 6.3.0. However, I chose to use the alpha build of 7.0.0 because this version introduced a few new features, including the ability to turn off some of the USB devices that are enabled by default. I wanted this device to be as minimally intrusive as possible, so I didn't want anything like a USB mass storage device mounted when it was plugged in. After installing CircuitPython, I had to install the Adafruit HID library to allow the Pico to interact as a keyboard. Documentation on installing libraries can be found at https://circuitpython.org/libraries. 
 
 The code that actually makes the Stream Deck work is in the `code.py` file. In order to take advantage of the feature mentioned above allowing me to disable USB devices, I had to add the `boot.py` file, which runs immediately when the Stream Deck is plugged in. Since the code in that `boot.py` file prevents the USB mass storage device from mounting, that means that it isn't possible to access the files on the device if there is any reason to edit the code or make any changes in the future. As a safe guard for this possibility, I added the function to mount those USB devices if the bottom right button is held down when the Stream Deck is plugged in.
+
+## Assigning functions to buttons
+
+The code in `code.py` assigns the buttons to key combos using the hidden F13, F14, F15, and F16 keys. Most applications (including Discord and OBS) will recognize these keys, and they will allow you to use these key combos as hotkeys.
+
+Below are screenshots showing the Stream Deck buttons being assigned as hotkeys in Discord and Streamlabs OBS
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/8460968/130346730-4bfb7258-7744-477e-9daa-48b7114d3f62.png" width="500">
+</p>
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/8460968/130346901-c79a2c2f-acf4-444a-8017-11d40fab3092.png" width="300">
+</p>
