@@ -96,6 +96,8 @@ btn12.pull = digitalio.Pull.DOWN
 keyboard = Keyboard(usb_hid.devices)
 
 while True:
+    # Top row of buttons have red LEDs and work like a toggle
+    # Meant to be used for mute/deafen functions
     if btn1.value:
         keyboard.send(Keycode.SHIFT, Keycode.F13)
         print("Shift + F13 pressed")
@@ -116,6 +118,8 @@ while True:
         print("Shift + F16 pressed")
         led4.value = not led4.value
         time.sleep(0.1)
+    # Second row of buttons have green LEDS and work like a switcher
+    # Meant to be used for a scene switcher
     if btn5.value:
         keyboard.send(Keycode.CONTROL, Keycode.F13)
         print("Control + F13 pressed")
@@ -160,6 +164,8 @@ while True:
             led7.value = False
             led8.value = True
         time.sleep(0.1)
+    # The bottom row of buttons have blue LEDS and only activate briefly when pressed
+    # Meant to be used for sound alerts or other things that simply trigger when pressed
     if btn9.value:
         keyboard.send(Keycode.ALT, Keycode.F13)
         print("Alt + F13 pressed")
@@ -189,6 +195,3 @@ while True:
         led12.value = False
         time.sleep(0.1)
     time.sleep(0.1)
-
-print("It works!")
-
