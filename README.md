@@ -67,7 +67,7 @@ Next I soldered a wire to the right pins of each of the switches. These wires wi
 
 ## Finishing putting it together
 
-After soldering all of the wires to the pins on the Pico, the only thing left (other that the code) was to put together the enclosure and add the keycaps to the switches. I used super glue to attach the Pico to the bottom of the enclosure making sure that it was pushed all the way to the rear so that the micro USB port was accessible through the opening in the back of the enclosure. Once the glue dries, I tucked all of the wiring into the enclosure and pushed the face plate into the front of the enclosure. 
+After soldering all of the wires to the pins on the Pico, the only thing left (other than the code) was to put together the enclosure and add the keycaps to the switches. I used super glue to attach the Pico to the bottom of the enclosure making sure that it was pushed all the way to the rear so that the micro USB port was accessible through the opening in the back of the enclosure. Once the glue dries, I tucked all of the wiring into the enclosure and pushed the face plate into the front of the enclosure. 
 
 The last step was to add the 3D printed keycaps. The keycap design that I chose is relegendable, meaning that they have a removable top that allows you to add a custom label. I printed the bottom of the keycap with grey filament and the top with transparent filament so a label would show through.
 
