@@ -65,6 +65,10 @@ Next I soldered a wire to the right pins of each of the switches. These wires wi
   <img src="https://user-images.githubusercontent.com/8460968/130341207-96b11b41-25a3-4c08-99c7-718869baa5db.jpg" width="500">
 </p>
 
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/8460968/130503274-f82b0628-81ca-4c95-a0c4-bffdbee3e6ff.jpg" width="500">
+</p>
+
 ## Finishing putting it together
 
 After soldering all of the wires to the pins on the Pico, the only thing left (other than the code) was to put together the enclosure and add the keycaps to the switches. I used super glue to attach the Pico to the bottom of the enclosure making sure that it was pushed all the way to the rear so that the micro USB port was accessible through the opening in the back of the enclosure. Once the glue dried, I tucked all of the wiring into the enclosure and pushed the face plate into the front of the enclosure. 
